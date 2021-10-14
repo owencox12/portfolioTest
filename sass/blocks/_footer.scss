@@ -1,0 +1,45 @@
+.footer {
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    padding: 50px 0 0 0;
+    min-height: 170px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_list {
+            padding-left: 0;
+            list-style-type: none;
+            &_li {
+                margin: 9px 0;
+                a {
+                    font-family: Arodora Pro;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #8b8989;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_images {
+            display: flex;
+            &_logo {
+                margin-right: 32px;
+            }
+            &_arrow {
+                cursor: pointer;
+            }
+        }
+        &_descr {
+            margin-top: 40px;
+            font-family: Arodora Pro;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            color: #8b8989;
+        }
+    }
+}

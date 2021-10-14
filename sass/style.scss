@@ -1,0 +1,25 @@
+* {
+    font-family: 'NEXT ART', sans-serif;
+}
+
+.container {
+    max-width: 1202px;
+    margin: 0 auto;
+    &_small {
+        max-width: 773px;
+        margin: 0 auto;
+    }
+}
+* {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/about';
+@import 'blocks/portfolio';
+@import 'blocks/footer';
+@import 'blocks/media';

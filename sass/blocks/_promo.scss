@@ -1,0 +1,80 @@
+.promo {
+    background: #252424;
+    padding: 40px 0 142px 0;
+    height: 633px;
+    position: relative;
+    &__header {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all .3s;
+            top: -100%;
+            &_active {
+                position: fixed;
+                background: #000;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 70px;
+                z-index: 1000;
+            }
+            &_menu {
+                &_list {
+                    display: flex;
+                    &_li {
+                        margin: 0 74.5px;
+                        a {
+                            font-family: Arodora Pro;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 18px;
+                            line-height: 21px;
+                            display: flex;
+                            align-items: center;
+                            color: #6d6d6d;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__information {
+        margin-top: 150px;
+        &_name {
+            span {
+                font-family: NEXT ART;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 54px;
+                align-items: center;
+                color: #E4E4E4;
+            }
+            font-family: NEXT ART;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 72px;
+            line-height: 82px;
+            color: #E4E4E4;
+        }
+        &_descr {
+            font-family: Arodora Pro;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            color: #757272;
+            margin-top: 27px;
+            width: 430px;
+        }
+    }
+    &__header_burger_list {
+        display: none;
+    }
+}
